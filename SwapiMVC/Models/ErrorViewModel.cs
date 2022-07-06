@@ -1,4 +1,4 @@
-namespace SwapiMVC.Models;
+
 
 public class ErrorViewModel
 {
