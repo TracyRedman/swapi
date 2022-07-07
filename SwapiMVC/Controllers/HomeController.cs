@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        string [] names = new [] {"Petra", "Miriam", "Isaac", "Oliver"};
+        string [] names = new [] {"Bobby", "Tracy", "Justin", "Miriam", "Isaac", "Petra"};
         string name = names[_random.Next(0, names.Length)];
         return View(model: name);
     }
